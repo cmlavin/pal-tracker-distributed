@@ -4,7 +4,6 @@ applications:
   host: timesheets-pal-cl
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-cl
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
